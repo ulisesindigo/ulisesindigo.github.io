@@ -12,123 +12,250 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://use.fontawesome.com/1866595c1f.js"></script>
         <style>
             
-    /*      
             
-            .aboutC {
-   background-color: #1E88E5;
-}
+            body 
+            { 
+                padding-top: 50px;
+                
+            }
+           /*#about
+            {
+             
+                background-color: gray;
+                
+            }
+            #portfolio
+            {
+             background-color: lightgray;
+            }
+            #contact
+            {
+             background-color: rosybrown;
+            } */
             
-            .portfolioC {
-   background-color: #673ab7;
-}
+            /* Remove the jumbotron's default bottom margin */ 
+     .jumbotron {
+         margin-bottom: 0;}
             
-            .contactC {
-   background-color: #ff9800;
-}
-            */
- 
+            ul
+            {
+             list-style-position: inside;   
+            }
+
+            
+        
+
     </style>
         
     </head>
     <body>
-        
+        <!--NAVIGATION BAR-->
         <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-            <a class="navbar-brand" href="#">MyPortfolio</a>
-            </div>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#about"><span class="glyphicon glyphicon-info-sign"></span> About</a> </li>
-            <li><a href="#portfolio"><span class="glyphicon glyphicon-folder-open"></span> Portfolio</a></li>
-            <li><a href="#contact"><span class="glyphicon glyphicon-phone-alt"></span> Contact</a></li>
-                
-                
-            </ul>
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Who is Ulises?</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#about"><span class="glyphicon glyphicon-info-sign"></span> About me</a> </li>
+                    <li><a href="#portfolio"><span class="glyphicon glyphicon-folder-open"></span> Portfolio</a></li>
+                    <li><a href="#contact"><span class="glyphicon glyphicon-phone-alt"></span> Contact</a></li>             
+                </ul>
+                </div>
             </div>        
         </nav>
-      
- <div class="container" id="about">
-     <div class="jumbotron aboutC">
+   
         
-            
-            
-            <h1 class="text-center">About</h1>
-            <div class="row">
-            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 text-center">
-                <h3>This is my profile page, I will be tweaking this page as I continue making progress up the FCC tree.</h3>
-                <h3>I am interested in becoming a web developer, both front and back-end.</h3>
-                    <h3>Coded by: Ulises Morales H.</h3>
-                </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                <img class="img-responsive img-rounded" src="pictures/programmer.jpg">
-                </div>
-            </div>
-        </div>
-       </div>      
-      
-        <div class="container" id="portfolio">
-         <div class="jumbotron portfolioC">
-            
-            <h1 class="text-center">Portfolio</h1>
-            <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <h2 class="text-center">Project 1</h2>
-            <img class="img-responsive img-rounded thumbnail" src="pictures/project1.png">
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <h2 class="text-center">Project 2</h2>
-            <img class="img-responsive img-rounded thumbnail" src="pictures/project2.png">
-            </div>
-                
-                <div class="clearfix"></div> 
-                
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <h2 class="text-center">Project 3</h2>
-            <img class="img-responsive img-rounded thumbnail" src="pictures/project3.png">
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <h2 class="text-center">Project 4</h2>
-            <img class="img-responsive img-rounded thumbnail" src="pictures/project3.png">
-            </div>
-                </div>
-            
-            
-           </div>
-        </div>
         
-        <div class="container" id="contact">
-      <div class="jumbotron contactC">
-            <h1 class="text-center">Contact</h1>
-            <div class="row text-center">
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <h2>Scroll all the way down until the end of the page, there you will see my email in a clickable link.</h2>
+        
+        
+        
+        
+        
+        
+        <!--SECTION 1 -ABOUT- -->
+        <div class="container">
+       <div class="jumbotron text-center">
+           <h1>Welcome to my webpage.</h1>
+          <!-- <div class="row">
+               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                   <ul><h2>Professional life.</h2>
+                   <li>Spanish teacher.</li>
+                            <li>English teacher.</li>
+                            <li>English-Spanish interpreter.</li>
+                            <li>Web developer.</li>
+                   
+                   
+                   </ul>
+                   
+               
+               </div>
+               
+               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    
+                        <ul><h2>Personal life.</h2>
+                   <li>Rollerblader.</li>
+                            <li>World traveler.</li>
+                            <li>Avid reader.</li>
+                            <li>Computer technology enthusiast.</li>
+                   
+                   
+                   </ul>
                 </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <h2>Thank you for visiting my portfolio. Please no spam. :D</h2>
-                </div>
+
+-->
+           
           
-            </div>
-            
-           </div> 
+                        <img class="img-responsive img-circle img-thumbnail center-block" src="pictures/programmer.jpg">
+                               
+               
+        
+               
+               
+           
+           <h3>Scroll down to discover a little bit more about me.</h3>
         </div>
-      
-    <div class="text-center bottom_bar">
-   <footer>
-  <p>Coded by: Ulises M.</p>
-  <p>Contact information: <a href="mailto:ulises225@yahoo.com.mx">
-  ulises225@yahoo.com.mx</a>.</p>
-</footer> 
-    </div>     
+            </div>
+
         
         
         
+           
+        
+       <div class="container" id="about">
+           
+            <div class=" text-info text-center">
+                <h1>About me</h1>
+                
+                <div class="row">
+                    <div class="col-sm-4 col-xs-12">
+                        <div class="thumbnail">
+                        <img src="pictures/professional.jpg">
+                        <div class="caption">
+                    
+                        <h2>Personal life.</h2>
+                        <p>My name is Ulises Morales and I'm 29 years old, I am from Mexico city and I enjoy rollerblading around my city.</p>
+                     
+                        </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-4 col-xs-12">
+                        <div class="thumbnail">
+                            <img src="pictures/personal.jpg">
+                            <div class="caption">
+                        <h2>Professional life.</h2>
+                        <p>I am currently working as a language tutor and I'm studying to become a web developer.</p>
+                                </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-sm-4 col-xs-12">  
+                        <div class="thumbnail">
+                        <img src="pictures/coding.png">
+                            <div class="caption">
+                        <h2>Info about this page.</h2> 
+                        <p> This is my portfolio page, however I will be tweaking it up as I continue to learn more about web development</p>
+                    </div>
+                </div>
+                    </div>
+                </div>
+                
+                
+                
+                   
+            </div>
+        </div>               
+        
+
+        
+      <!--SECTION 2 -PORTFOLIO- -->
         
         
+         <div class="container" id="portfolio">
+             <div class="text-success text-center">
+                <h1 class="text-center">Portfolio</h1>
+                   <div class="row">
+                    <div class="col-sm-3 col-xs-12">
+                        <div class="thumbnail">
+                        <img src="pictures/project1.png">
+                        <div class="caption">
+                    
+                        <h2>First Webpage</h2>
+                        <p>This is the first page I developed, pretty simple but nevertheless very important.</p>
+                     
+                        </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-3 col-xs-12">
+                        <div class="thumbnail">
+                            <img src="pictures/project2.png">
+                            <div class="caption">
+                        <h2>My first attempt to build a portfolio page.</h2>
+                        <p>This was my first attempt to build a portfolio webpage, after messing up a little bit with colors I decided to focus more on structure for my second attempt.</p>
+                                </div>
+                        </div>
+                    </div>
+                
+                       
+                       
+                    <div class="col-sm-3 col-xs-12">  
+                        <div class="thumbnail">
+                        <img src="pictures/project3.png">
+                            <div class="caption">
+                        <h2>Second attempt to build a portfolio page.</h2> 
+                        <p> This one is my second attempt to build a portofolio page, at this point at decided to ditch codepen and started using brakets.io.</p>
+                    </div>
+                </div>
+                    </div>
+                       
+                       <div class="col-sm-3 col-xs-12">  
+                        <div class="thumbnail">
+                        <img src="pictures/project4.png">
+                            <div class="caption">
+                        <h2>Almost ready to publish.</h2> 
+                        <p>So far this shows a good overall minimalistic design, I will be publishing further updates through github.</p>
+                    </div>
+                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         
+        <!--SECTION 3 -CONTACT- -->
+      <div class="container text-center" id="contact">
+                <h1 class="text-center">Contact me</h1>
+          <h3>If you wish to contact me by email scroll to the bottom of the page for my email.</h3>
+          <h3>To get to know more about me you can click on any of the following buttons.</h3>
+          
+          <div class="btn-group btn-group-lg" role="group">
+               <a type="button" href="#" class="btn btn-primary"><i class="fa fa-facebook"> Facebook</i> </a>
+               <a type="button" href="https://github.com/megosh225" class="btn btn-primary"><i class="fa fa-github"> Github</i> </a>
+               <a type="button" href="https://www.italki.com/teacher/1544372" class="btn btn-primary"><i class="fa fa-language"> Italki</i> </a>
+               <a type="button" href="https://www.linkedin.com/in/ulises-morales-468156135/" class="btn btn-primary"><i class="fa fa-linkedin"> Linkedin</i> </a>  
+               <a type="button" href="https://www.freecodecamp.com/megosh225" class="btn btn-primary"><i class="fa fa-free-code-camp"> FreeCodeCamp</i> </a>
+               
+               </div>
+                
+        </div>
         
-        
+      <!--SECTION 4 -FOOTER- -->
+        <div class="text-center bottom_bar">
+            <footer>
+                <p>Coded by: Ulises M.</p>
+                    <p>Contact information: <a href="mailto:ulises225@yahoo.com.mx">ulises225@yahoo.com.mx</a>.</p>
+            </footer> 
+        </div>  
+            
         
     </body>
 </html>
